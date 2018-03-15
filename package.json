@@ -1,0 +1,35 @@
+{
+  "name": "urbo-planificar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "custom-react-scripts": "^0.2.2",
+    "faker": "^4.1.0",
+    "interact.js": "^1.2.8",
+    "material-ui": "^1.0.0-beta.33",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "pubsub-js": "^1.6.0",
+    "randomcolor": "^0.5.3",
+    "react": "^16.2.0",
+    "react-alert": "^3.4.0",
+    "react-alert-template-basic": "^1.0.0",
+    "react-beautiful-dnd": "^5.0.0",
+    "react-calendar-timeline": "^0.15.7",
+    "react-contexify": "^3.0.0-rc.2",
+    "react-contextmenu": "^2.9.2",
+    "react-dnd": "^2.5.4",
+    "react-dnd-html5-backend": "^2.5.4",
+    "react-dom": "^16.2.0",
+    "react-popup": "^0.9.2",
+    "react-scripts": "^1.1.1",
+    "react-transition-group": "^2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,28 @@
+if(this.props.id_linea != ' '){
+  this.state.displayedLicenses = this.updateList();
+//console.log('if');
+  //console.log(this.state.displayedLicenses);
+}else{
+   this.state.displayedLicenses = this.state.all_cars_licenses;
+  // console.log('else');
+  // console.log(this.state.displayedLicenses);
+}
+
+
+var aux2 = this.props.eliminatedGroup_license;
+if(this.props.eliminatedGroup_license != ' ' && this.props.eliminatedGroup_license != undefined){
+  this.state.removed_vehicles = this.reAddVehicle();
+  licenses = this.state.displayedLicenses;
+  if(auxe != aux2 ){
+    licenses.push(aux2);
+    auxe = aux2;
+  }
+  this.state.displayedLicenses = licenses;
+}
+
+
+
+"mantenimances":{
+  date_begin: "2018-03-09",
+  date_end:   "2018-03-10"
+}
